@@ -1,8 +1,9 @@
 package application;
 
-
+import controller.CommentController;
 import controller.HomeController;
 import controller.IController;
+import controller.MovieController;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
@@ -12,17 +13,16 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class MyApplication {
 
     public TemplateEngine templateEngine;
-    private Map<String, IController> controllersByURL;
+    private final Map<String, IController> controllersByURL;
 
     public MyApplication(final ServletContext servletContext) {
         super();
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(servletContext);
         templateResolver.setTemplateMode(TemplateMode.HTML);
-        templateResolver.setPrefix("/html/");
+        templateResolver.setPrefix("/templates/");
         templateResolver.setSuffix(".html");
         templateResolver.setCacheTTLMs(Long.valueOf(3600000L));
         templateResolver.setCacheable(true);
@@ -31,6 +31,9 @@ public class MyApplication {
         this.controllersByURL = new HashMap<>();
 
         this.controllersByURL.put("/", new HomeController());
+        this.controllersByURL.put("/movie", new MovieController());
+        this.controllersByURL.put("/comment", new CommentController());
+
     }
 
     public IController resolveControllerForRequest(final HttpServletRequest request) {
@@ -51,4 +54,3 @@ public class MyApplication {
         return requestURI;
     }
 }
-
