@@ -10,56 +10,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98bf1691-041c-4f7f-bcb4-9f928420808a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo2_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo2_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mflix.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/MyApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/IController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/IController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MovieController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/filter/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/MyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MovieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/movie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/MyApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/filter/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/MyFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/application/MyApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/IController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/filter/MyFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/model/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/lib/bson-4.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/lib/mongodb-driver-core-4.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/lib/mongodb-driver-sync-4.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/lib/ognl-3.1.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/html/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -76,6 +66,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -85,6 +76,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.43">
     <configuration name="Unnamed" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -372,8 +367,34 @@
       <workItem from="1628135662979" duration="2335000" />
       <workItem from="1628171872316" duration="556000" />
       <workItem from="1628173041989" duration="501000" />
-      <workItem from="1628175120699" duration="301000" />
+      <workItem from="1628174383260" duration="579000" />
+      <workItem from="1628309684051" duration="439000" />
+      <workItem from="1628343686432" duration="109000" />
+      <workItem from="1628343833871" duration="6801000" />
+      <workItem from="1628376150567" duration="2167000" />
+      <workItem from="1628429218120" duration="3542000" />
+      <workItem from="1628461690975" duration="3454000" />
+      <workItem from="1628475405536" duration="956000" />
+      <workItem from="1628476690629" duration="1871000" />
+      <workItem from="1628479205905" duration="206000" />
+      <workItem from="1628479584702" duration="681000" />
+      <workItem from="1628480426606" duration="805000" />
     </task>
+    <task id="LOCAL-00001" summary="Khoi Tao">
+      <created>1628429971302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628429971302</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Khoi Tao">
+      <created>1628478811863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628478811863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,5 +411,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Khoi Tao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Khoi Tao" />
   </component>
 </project>
