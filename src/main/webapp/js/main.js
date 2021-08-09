@@ -22,7 +22,7 @@ src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js">*/
     apiKey: "AIzaSyArYCA14-VbksnUswWrqMmdPs5qgNxhn3I",
     authDomain: "mflix-mflix2021.firebaseapp.com",
     projectId: "mflix-mflix2021",
-    storageBucket: "mflix-bbcee.appspot.com",
+    storageBucket: "mflix-mflix2021.appspot.com",
     messagingSenderId: "519775413902",
     appId: "1:519775413902:web:f2128094e2747d0759cbdf",
     measurementId: "G-8Y55DXE8C4"
