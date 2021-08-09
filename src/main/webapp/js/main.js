@@ -20,8 +20,8 @@ src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js">*/
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     var firebaseConfig = {
     apiKey: "AIzaSyArYCA14-VbksnUswWrqMmdPs5qgNxhn3I",
-    authDomain: "mflix-bbcee.firebaseapp.com",
-    projectId: "mflix-bbcee",
+    authDomain: "mflix-mflix2021.firebaseapp.com",
+    projectId: "mflix-mflix2021",
     storageBucket: "mflix-bbcee.appspot.com",
     messagingSenderId: "519775413902",
     appId: "1:519775413902:web:f2128094e2747d0759cbdf",
