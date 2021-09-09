@@ -10,32 +10,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98bf1691-041c-4f7f-bcb4-9f928420808a" name="Default Changelist" comment="Khoi Tao">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/IMovieDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/MongoDB/TheaterDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/MovieDB/AbsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/MovieDB/MovieDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/MovieDB/json/DiscoveryMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/MovieDB/json/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/MovieDB/json/ResultsItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/APIApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/APIFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Geo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Theater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/TheaterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templates/mapbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Mflix_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Mflix_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mflix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mflix.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/AbsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/MongoDB/AbsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CommentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/MongoDB/CommentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/MovieDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/MongoDB/MovieDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filter/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend_fr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend_vi.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/fragments/frontend_vi.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/movie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/MyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/filter/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/MyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Movie.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -44,7 +70,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1wHhK0zBYrQJndRPv9cslyX76OT" />
+  <component name="ProjectId" id="1xtUPuWMlzHIHmQCosWk6RVnyVt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,115 +78,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.43">
     <configuration name="Unnamed" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="Mflix:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/Mflix_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="AJP_PORT" value="1099" />
-        <option name="BASE_DIRECTORY_NAME" value="413fda74-d799-4535-a1cf-a15e7401bc32" />
-        <option name="HTTP_PORT" value="8080" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49671" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Mflix:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="7b00e253-3a63-4955-afa1-f7ee8d5a9071" />
+        <option name="BASE_DIRECTORY_NAME" value="d30cc57c-a5f6-4960-8059-5bcbf5fecfb0" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -168,7 +96,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49724" />
+        <option name="DEBUG_PORT" value="49257" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -235,7 +163,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8089/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Mflix:war exploded">
@@ -245,9 +172,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="42e4816a-99ca-4375-a458-b04b32d029af" />
-        <option name="HTTP_PORT" value="8089" />
-        <option name="JNDI_PORT" value="1098" />
+        <option name="BASE_DIRECTORY_NAME" value="2d601048-41e1-416c-b6de-4fc14dab7b0d" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -255,7 +180,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49677" />
+        <option name="DEBUG_PORT" value="49220" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -325,15 +250,84 @@
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f4dfbeeb-c9d7-4a53-887d-b7fa7e68434e" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49220" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Mflix:war exploded" />
+        </option>
       </method>
     </configuration>
     <list>
@@ -344,107 +338,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="98bf1691-041c-4f7f-bcb4-9f928420808a" name="Default Changelist" comment="" />
-      <created>1628121359030</created>
+      <changelist id="ef18db03-a444-4a54-8a02-33d1fbec5a8d" name="Default Changelist" comment="" />
+      <created>1631173960634</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1628121359030</updated>
-      <workItem from="1628121383353" duration="501000" />
-      <workItem from="1628135662979" duration="2335000" />
-      <workItem from="1628171872316" duration="556000" />
-      <workItem from="1628173041989" duration="501000" />
-      <workItem from="1628174383260" duration="579000" />
-      <workItem from="1628309684051" duration="439000" />
-      <workItem from="1628343686432" duration="109000" />
-      <workItem from="1628343833871" duration="6801000" />
-      <workItem from="1628376150567" duration="2167000" />
-      <workItem from="1628429218120" duration="3542000" />
-      <workItem from="1628461690975" duration="3454000" />
-      <workItem from="1628475405536" duration="956000" />
-      <workItem from="1628476690629" duration="1871000" />
-      <workItem from="1628479205905" duration="206000" />
-      <workItem from="1628479584702" duration="681000" />
-      <workItem from="1628480426606" duration="805000" />
-      <workItem from="1628515215329" duration="2566000" />
-      <workItem from="1628519277361" duration="1239000" />
+      <updated>1631173960634</updated>
+      <workItem from="1631174061581" duration="815000" />
     </task>
-    <task id="LOCAL-00001" summary="Khoi Tao">
-      <created>1628429971302</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1628429971302</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Khoi Tao">
-      <created>1628478811863</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1628478811863</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Khoi Tao">
-      <created>1628481703066</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1628481703066</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Khoi Tao">
-      <created>1628482456076</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1628482456076</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Khoi Tao">
-      <created>1628487538740</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1628487538740</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Khoi tao">
-      <created>1628515956570</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1628515956570</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Khoi Tao">
-      <created>1628517167130</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1628517167130</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Khoi Tao">
-      <created>1628517206802</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1628517206802</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Khoi tao" />
-    <MESSAGE value="Khoi Tao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Khoi Tao" />
   </component>
 </project>

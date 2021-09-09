@@ -1,4 +1,4 @@
-package DAO;
+package DAO.MongoDB;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
@@ -16,7 +16,8 @@ public abstract class AbsDAO {
 
     MongoDatabase getDB() {
         if (db == null) {
-            ConnectionString connectionString = new ConnectionString("mongodb+srv://root:root@cluster0.lh5rj.mongodb.net/sample_mflix?retryWrites=true&w=majority");
+            //ConnectionString connectionString = new ConnectionString("mongodb://localhost:27017");
+            ConnectionString connectionString = new ConnectionString("mongodb+srv://root:root@cluster0.lh5rj.mongodb.net");
             MongoClientSettings settings = MongoClientSettings.builder()
                     .applyConnectionString(connectionString)
                     .codecRegistry(fromRegistries(MongoClientSettings.getDefaultCodecRegistry(), fromProviders(PojoCodecProvider.builder().automatic(true).build())))

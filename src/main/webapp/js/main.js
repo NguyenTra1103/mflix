@@ -1,39 +1,13 @@
-
-
-/*<script src="/__/firebase/8.9.0/firebase-app.js"></script>
-
-
-    <script src="/__/firebase/8.9.0/firebase-analytics.js"></script>
-
-
-<script src="/__/firebase/init.js"></script>*/
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-/*<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
-
-
-https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script
-src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js">*/
-
-
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    var firebaseConfig = {
-        apiKey: "AIzaSyArYCA14-VbksnUswWrqMmdPs5qgNxhn3I",
-        authDomain: "mflix-bbcee.firebaseapp.com",
-        projectId: "mflix-bbcee",
-        storageBucket: "mflix-bbcee.appspot.com",
-        messagingSenderId: "519775413902",
-        appId: "1:519775413902:web:f2128094e2747d0759cbdf",
-        measurementId: "G-8Y55DXE8C4"
+var firebaseConfig = {
+    apiKey: "AIzaSyBy7jLeJGFkf2f3NGj31HUinBoCoapLY_c",
+    authDomain: "mflix-3c4b9.firebaseapp.com",
+    projectId: "mflix-3c4b9",
+    storageBucket: "mflix-3c4b9.appspot.com",
+    messagingSenderId: "40233807911",
+    appId: "1:40233807911:web:0a6234bcc4ee4cef5ade02",
+    measurementId: "G-V36EWQNVE8"
 };
-    // Initialize Firebase
-    /*firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-$(function () {
-    firebase.initializeApp(firebaseConfig);
-    alert(firebase.SDK_VERSION)
-});*/
+
 var uiConfig = {
     signInFlow: 'popup',
     signInOptions: [
@@ -64,12 +38,12 @@ $(function () {
     firebase.initializeApp(firebaseConfig);
     ui = new firebaseui.auth.AuthUI(firebase.auth());
     ui.start('#firebaseui-auth-container', uiConfig);
-
     firebase.auth().onAuthStateChanged(function (user) {
         user ? handleSignedInUser(user) : handleSignedOutUser();
         $("#login-spinner").addClass("d-none")
     });
 });
+
 function handleSignedInUser(user) {
     $(".user").removeClass("d-none")
     $(".guest").addClass("d-none")
@@ -89,6 +63,3 @@ function handleSignedOutUser() {
     $(".user").addClass("d-none")
     $(".guest").removeClass("d-none")
 }
-
-
-

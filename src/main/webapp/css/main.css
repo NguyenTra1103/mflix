@@ -40,6 +40,7 @@
     min-height: 300px;
     object-fit: cover;
 }
+
 [class*='mdl-shadow']{
     box-shadow: none;
 }
